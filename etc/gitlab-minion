@@ -1,0 +1,7 @@
+file_client: local
+
+minion_id: gitlab.local
+
+file_roots:
+  base:
+    - /srv/salt/base
