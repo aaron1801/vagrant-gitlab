@@ -9,9 +9,6 @@ cd do-gitlab
 vagrant up gitlab --provision
 ```
 
-Then, navigate to [http://localhost:8888](http://localhost:8888) and login with 
-the username: ```root```, password: ```5iveL!fe```
-
 ##### Login to the vagrant machine
 ```
 vagrant ssh gitlab
@@ -22,4 +19,8 @@ vagrant ssh gitlab
 ```
 sudo salt-call -l debug --local state.highstate
 ```
+
+##### Access Gitlab
+Then, navigate to [http://localhost:8888](http://localhost:8888) and login with 
+the username: ```root```, password: ```5iveL!fe```
 
