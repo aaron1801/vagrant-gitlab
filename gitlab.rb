@@ -1,4 +1,4 @@
-external_url "http://192.168.3.10:8888"
+external_url "http://localhost:8888"
 
 nginx['redirect_http_to_https'] = false
 
