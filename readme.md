@@ -4,8 +4,8 @@
 The vagrant implementation will allow you to use gitlab locally.
 
 ```
-git clone git@gitlab.madisonhub.org:madisonhub/do-gitlab.git
-cd do-gitlab
+git clone https://github.com/MadisonHub/vagrant-gitlab.git
+cd varant-gitlab
 vagrant up gitlab --provision
 ```
 
